@@ -1,0 +1,61 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-image: url(./NASABackgroundImage.jpg);
+    background-size: contain;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    height: 324px;
+    background-color: lightgrey;
+    padding-left: 60px;
+}
+
+div {
+    width: 270px;
+
+}
+
+h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.office-info {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.social-media {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-form {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
